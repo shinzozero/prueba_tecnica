@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7ede2; 
+    color: #4d4d4d; 
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61; 
+}
+
+.tabla-cursos {
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+.tabla-cursos th,
+.tabla-cursos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.tabla-cursos th {
+    background-color: #ffccbc; 
+    color: #6d4c41; 
+}
+
+.tabla-cursos tbody tr:nth-child(even) {
+    background-color: #ffe0b2; 
+}
+
+.tabla-cursos tbody tr:hover {
+    background-color: #ffab91; 
+}
+
+#zona-tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    flex-direction: column;
+    margin-top: 10%;
+}
